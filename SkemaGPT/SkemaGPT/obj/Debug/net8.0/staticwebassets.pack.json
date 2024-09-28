@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SkemaGPT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SkemaGPT.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SkemaGPT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SkemaGPT.props",
+      "PackagePath": "build\\SkemaGPT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SkemaGPT.props",
+      "PackagePath": "buildMultiTargeting\\SkemaGPT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SkemaGPT.props",
+      "PackagePath": "buildTransitive\\SkemaGPT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,64 @@
+﻿@page "/import"
+@inject IWebHostEnvironment env
+@rendermode InteractiveServer
+
+<div>
+    <h2 class="display-4">Interactive Server Upload</h2>
+    <p>This render mode is also known as "Blazor Server with SignalR".</p>
+</div>
+
+@if (Message.Length > 0)
+{
+    <p class="alert alert-secondary" role="alert">@Message</p>
+}
+
+<EditForm Model="@Ticket" method="post" OnValidSubmit="@OnSubmit" enctype="multipart/form-data">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <InputText class="form-control mb-4" placeholder="Title" @bind-Value="@Ticket.Type" />
+    <InputFile class="form-control mb-4" OnChange="@SetFile" multiple />
+    <button class="btn btn-primary" type="submit">Submit</button>
+</EditForm>
+
+
+@code {
+    private ServerSignalRTicket Ticket { get; set; } = new();
+    private long maxFileSize = 5120000;
+    private string Message { get; set; } = String.Empty;
+
+    private void SetFile(InputFileChangeEventArgs e)
+    {
+        Ticket.Attachments = e.GetMultipleFiles();
+    }
+
+    private async Task OnSubmit()
+    {
+        try
+        {
+            foreach (var file in Ticket.Attachments)
+            {
+                string safeFileName = WebUtility.HtmlEncode(file.Name);
+
+                // Save file locally
+                var path = Path.Combine(env.ContentRootPath, "files", safeFileName);
+                await using FileStream fs = new(path, FileMode.Create);
+                await file.OpenReadStream(maxFileSize).CopyToAsync(fs);
+
+            }
+
+            Message = "File uploaded!";
+        }
+        catch (Exception e)
+        {
+            Message = "Error: " + e.Message;
+        }
+    }
+
+    private class ServerSignalRTicket
+    {
+        [Required]
+        public string Type { get; set; } = String.Empty;
+
+        public IReadOnlyList<IBrowserFile> Attachments { get; set; }
+    }
+}
