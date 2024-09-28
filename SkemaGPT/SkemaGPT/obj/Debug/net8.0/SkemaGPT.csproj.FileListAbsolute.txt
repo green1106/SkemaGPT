@@ -56,7 +56,6 @@ C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\obj\Debug\net8.0\refint\SkemaGPT
 C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\obj\Debug\net8.0\SkemaGPT.pdb
 C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\obj\Debug\net8.0\SkemaGPT.genruntimeconfig.cache
 C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\obj\Debug\net8.0\ref\SkemaGPT.dll
-C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
-C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
-C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\bin\Debug\net8.0\MudBlazor.dll
 C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\obj\Debug\net8.0\SkemaGPT.sourcelink.json
+C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\bin\Debug\net8.0\FluentValidation.dll
+C:\Development\Repos\SkemaGPT\SkemaGPT\SkemaGPT\bin\Debug\net8.0\Blazored.FluentValidation.dll

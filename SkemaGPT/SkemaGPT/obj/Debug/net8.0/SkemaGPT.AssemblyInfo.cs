@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkemaGPT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b08982e8316fec18129a01912111e96b4d39747a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1de176bf8cb3c0236c6a32424e33f29068235223")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkemaGPT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkemaGPT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

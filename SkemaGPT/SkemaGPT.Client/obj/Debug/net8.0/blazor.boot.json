@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SkemaGPT.Client",
   "resources": {
-    "hash": "sha256-/moen3rLcoRIrf2jXLmIfvLYb0hZuz19mpKHWLXBIAI=",
+    "hash": "sha256-waSZ1xyENUHTQa8Mmp1oNXMafVr1A6RGyfYeTaBHbOs=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.03s5okuriu.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "SkemaGPT.Client.wasm": "sha256-t5L1RZ0PxurxGZbR+Gk8sNqGLlq1w+qiLTO10Ed6Qyc="
+      "SkemaGPT.Client.wasm": "sha256-4l+AwSw/ChnqDVy/8mzLvJXpanKTFT4ChtHyMbMGW2g="
     },
     "pdb": {
-      "SkemaGPT.Client.pdb": "sha256-LwfYyfMwf2uToZAGHiSTL9oyqCF+KjKbxRrf1yNKP84="
+      "SkemaGPT.Client.pdb": "sha256-rYXqWq2L+MVbKPHf5ESKbZGy6hL17KHjojMB3Wh1YNU="
     }
   },
   "cacheBootResources": true,

@@ -1,10 +1,10 @@
 ﻿@page "/import"
+@using System.Net
 @inject IWebHostEnvironment env
 @rendermode InteractiveServer
 
 <div>
-    <h2 class="display-4">Interactive Server Upload</h2>
-    <p>This render mode is also known as "Blazor Server with SignalR".</p>
+    <h2 class="display-4">Import</h2>
 </div>
 
 @if (Message.Length > 0)
@@ -15,36 +15,44 @@
 <EditForm Model="@Ticket" method="post" OnValidSubmit="@OnSubmit" enctype="multipart/form-data">
     <DataAnnotationsValidator />
     <ValidationSummary />
+
+    <Dropdown Color="DropdownColor.Primary">
+
+    </Dropdown>
+
     <InputText class="form-control mb-4" placeholder="Title" @bind-Value="@Ticket.Type" />
     <InputFile class="form-control mb-4" OnChange="@SetFile" multiple />
     <button class="btn btn-primary" type="submit">Submit</button>
 </EditForm>
 
-
 @code {
+    private TicketValidator? _fluentTicketValidator;
+
     private ServerSignalRTicket Ticket { get; set; } = new();
     private long maxFileSize = 5120000;
     private string Message { get; set; } = String.Empty;
 
     private void SetFile(InputFileChangeEventArgs e)
     {
-        Ticket.Attachments = e.GetMultipleFiles();
+        Ticket.File = e.File;
     }
 
     private async Task OnSubmit()
     {
         try
         {
-            foreach (var file in Ticket.Attachments)
+            string safeFileName = WebUtility.HtmlEncode(Ticket.Type);
+
+            if (Ticket.File.ContentType != "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
             {
-                string safeFileName = WebUtility.HtmlEncode(file.Name);
-
-                // Save file locally
-                var path = Path.Combine(env.ContentRootPath, "files", safeFileName);
-                await using FileStream fs = new(path, FileMode.Create);
-                await file.OpenReadStream(maxFileSize).CopyToAsync(fs);
-
+                Message = "File must be an Excel file";
+                return;
             }
+
+            // Save file locally
+            var path = Path.Combine(env.ContentRootPath, "Files", safeFileName);
+            await using FileStream fs = new(path, FileMode.Create);
+            await Ticket.File.OpenReadStream(maxFileSize).CopyToAsync(fs);
 
             Message = "File uploaded!";
         }
@@ -54,11 +62,24 @@
         }
     }
 
-    private class ServerSignalRTicket
+    public class ServerSignalRTicket
     {
         [Required]
         public string Type { get; set; } = String.Empty;
 
-        public IReadOnlyList<IBrowserFile> Attachments { get; set; }
+        public IBrowserFile File { get; set; }
+    }
+
+    // Not used right now
+    public class TicketValidator : AbstractValidator<ServerSignalRTicket>
+    {
+        public TicketValidator()
+        {
+            RuleFor(x => x.Type).NotEmpty().WithMessage("Title is required");
+            RuleFor(x => x.File).NotNull().WithMessage("File is required");
+
+            RuleFor(x => x.File).Must(x => x != null && x.ContentType.Contains("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"))
+                .WithMessage("File must be an Excel file");
+        }
     }
 }

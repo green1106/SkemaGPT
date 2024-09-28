@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkemaGPT", "SkemaGPT\SkemaGPT\SkemaGPT.csproj", "{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkemaGPT", "SkemaGPT\SkemaGPT\SkemaGPT.csproj", "{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkemaGPT.Client", "SkemaGPT\SkemaGPT.Client\SkemaGPT.Client.csproj", "{E5B5EDAE-D26D-4698-B1F5-4207F832447C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkemaGPT.Client", "SkemaGPT\SkemaGPT.Client\SkemaGPT.Client.csproj", "{E5B5EDAE-D26D-4698-B1F5-4207F832447C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkemaGPT.Lectio.Domain", "SkemaGPT.Lectio.Domain\SkemaGPT.Lectio.Domain.csproj", "{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E5B5EDAE-D26D-4698-B1F5-4207F832447C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B5EDAE-D26D-4698-B1F5-4207F832447C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B5EDAE-D26D-4698-B1F5-4207F832447C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

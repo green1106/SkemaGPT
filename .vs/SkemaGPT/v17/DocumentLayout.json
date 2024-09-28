@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Repos\\SkemaGPT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\pages\\import.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\pages\\import.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}|SkemaGPT.Lectio.Domain\\SkemaGPT.Lectio.Domain.csproj|c:\\development\\repos\\skemagpt\\skemagpt.lectio.domain\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}|SkemaGPT.Lectio.Domain\\SkemaGPT.Lectio.Domain.csproj|solutionrelative:skemagpt.lectio.domain\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B5EDAE-D26D-4698-B1F5-4207F832447C}|SkemaGPT\\SkemaGPT.Client\\SkemaGPT.Client.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B5EDAE-D26D-4698-B1F5-4207F832447C}|SkemaGPT\\SkemaGPT.Client\\SkemaGPT.Client.csproj|solutionrelative:skemagpt\\skemagpt.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}|SkemaGPT.Lectio.Domain\\SkemaGPT.Lectio.Domain.csproj|c:\\development\\repos\\skemagpt\\skemagpt.lectio.domain\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7EF7DA-6680-41B6-B2D5-0B69D3ED1C7B}|SkemaGPT.Lectio.Domain\\SkemaGPT.Lectio.Domain.csproj|solutionrelative:skemagpt.lectio.domain\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|c:\\development\\repos\\skemagpt\\skemagpt\\skemagpt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEC1F9C5-FFCA-44B3-ACF7-1683C6AB88F3}|SkemaGPT\\SkemaGPT\\SkemaGPT.csproj|solutionrelative:skemagpt\\skemagpt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Import.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Import.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Import.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Import.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Import.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T14:09:43.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T14:07:40.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T13:56:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT.Lectio.Domain\\Teacher.cs",
+              "RelativeDocumentMoniker": "SkemaGPT.Lectio.Domain\\Teacher.cs",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT.Lectio.Domain\\Teacher.cs",
+              "RelativeToolTip": "SkemaGPT.Lectio.Domain\\Teacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:23:27.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T12:18:44.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\_Imports.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T12:18:19.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\App.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\App.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T12:17:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT.Client\\Program.cs",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT.Client\\Program.cs",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT.Client\\Program.cs",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:17:21.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\appsettings.Development.json",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\appsettings.Development.json",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-28T12:16:37.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Program.cs",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Program.cs",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Program.cs",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T12:15:06.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\appsettings.json",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\appsettings.json",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\appsettings.json",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-28T12:14:26.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT\\SkemaGPT\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "SkemaGPT\\SkemaGPT\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T12:13:16.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT.Lectio.Domain\\Group.cs",
+              "RelativeDocumentMoniker": "SkemaGPT.Lectio.Domain\\Group.cs",
+              "ToolTip": "C:\\Development\\Repos\\SkemaGPT\\SkemaGPT.Lectio.Domain\\Group.cs",
+              "RelativeToolTip": "SkemaGPT.Lectio.Domain\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T11:49:17.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

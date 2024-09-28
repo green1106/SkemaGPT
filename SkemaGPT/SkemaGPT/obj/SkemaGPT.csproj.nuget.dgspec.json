@@ -142,13 +142,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Blazor.Bootstrap": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Blazored.FluentValidation": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
               "version": "[8.0.5, )"
-            },
-            "MudBlazor": {
-              "target": "Package",
-              "version": "[7.8.0, )"
             }
           },
           "imports": [

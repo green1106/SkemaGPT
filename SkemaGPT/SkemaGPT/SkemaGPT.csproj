@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SkemaGPT.Client\SkemaGPT.Client.csproj" />
+    <PackageReference Include="Blazor.Bootstrap" Version="3.0.0" />
+    <PackageReference Include="Blazored.FluentValidation" Version="2.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5" />
-    <PackageReference Include="MudBlazor" Version="7.8.0" />
   </ItemGroup>
 
   <ItemGroup>

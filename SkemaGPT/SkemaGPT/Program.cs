@@ -1,6 +1,6 @@
-using MudBlazor.Services;
-using SkemaGPT.Client.Pages;
+using FluentValidation;
 using SkemaGPT.Components;
+using static SkemaGPT.Components.Pages.Import;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +9,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-builder.Services.AddMudServices();
+builder.Services.AddScoped<IValidator<ServerSignalRTicket>, TicketValidator>();
+builder.Services.AddBlazorBootstrap();
 
 var app = builder.Build();
 

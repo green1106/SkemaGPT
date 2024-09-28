@@ -1,0 +1,12 @@
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.AssemblyInfoInputs.cache
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.AssemblyInfo.cs
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.csproj.CoreCompileInputs.cache
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.sourcelink.json
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\bin\Debug\net8.0\SkemaGPT.Lectio.Domain.deps.json
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\bin\Debug\net8.0\SkemaGPT.Lectio.Domain.dll
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\bin\Debug\net8.0\SkemaGPT.Lectio.Domain.pdb
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.dll
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\refint\SkemaGPT.Lectio.Domain.dll
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\SkemaGPT.Lectio.Domain.pdb
+C:\Development\Repos\SkemaGPT\SkemaGPT.Lectio.Domain\obj\Debug\net8.0\ref\SkemaGPT.Lectio.Domain.dll
